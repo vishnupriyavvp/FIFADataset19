@@ -1,4 +1,6 @@
-Section:1
+###Section:1
+
+
 I will use Hive as datastore for loading data and querying purpose.It can be loaded with daily delta loads using spark framework.The raw data will be transformed and stored in partitioned tables in Reporting layer by spark application using dataframes for delta loads.First create raw table to store the dataset asis.then transform the data and load the data in partitioned tables using spark dataframe.
 If delta file arrives then store in raw and the same will be processed by spark application for transformations and write to partitioned table in reporting database in append mode.
 Transformations in this e.g such as datatype conversions ,date formatting,value & wage conversions.
@@ -115,7 +117,8 @@ location '/hive/warehouse/fifadataset' ;
 4)load data local inpath '/home/vishnu/Downloads/73041_220332_compressed_data.csv/data.csv' into table fifa19_raw.fifa19_rawtable;
 
 
-section3:
+###Section3:
+
 1)Build Dockerfile: Git has the docker file which contains all the instructions required to install the dependencies to execute the postgres sql and spark.Also copied the project code to docker file from git clone command to build the image.
 
 2)Build Docker Image:It will create an image and tags it as "fifa19:1.0" from the above docker file.
