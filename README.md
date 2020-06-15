@@ -116,10 +116,16 @@ location '/hive/warehouse/fifadataset' ;
 
 
 section3:
+1)Build Dockerfile: Git has the docker file which contains all the instructions required to install the dependencies to execute the postgres sql and spark.Also copied the project code to docker file from git clone command to build the image.
 
-git clone https://github.com/vishnupriyavvp/FIFADataset19
-cd  FIFADataset19
+2)Build Docker Image:It will create an image and tags it as "fifa19:1.0" from the above docker file.
+docker build --tag fifa19:1.0 .
 
+3)Run Docker Image:Tells the docker to run the container named "vishnu" using the tag created for the project 
+docker run --publish 8000:8080 --detach --name vishnu fifa19:1.0
+
+4)To check the container running in docker
+docker ps --all
 
 
 
