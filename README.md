@@ -115,7 +115,10 @@ location '/hive/warehouse/fifadataset' ;
 4)load data local inpath '/home/vishnu/Downloads/73041_220332_compressed_data.csv/data.csv' into table fifa19_raw.fifa19_rawtable;
 
 
+section3:
 
+git clone https://github.com/vishnupriyavvp/FIFADataset19
+cd  FIFADataset19
 
 
 
