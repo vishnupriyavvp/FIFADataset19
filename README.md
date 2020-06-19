@@ -15,7 +15,6 @@ Hive will be easier to query the data for analysis by using partitions & buckets
 
 2)use fifa19_raw;
 
-
 3)create table fifa19_raw.fifa19_rawtable(
 rownum int
 , ID  int 
