@@ -1,3 +1,5 @@
+
+
 ###Section:1
 
 
@@ -115,6 +117,10 @@ location '/hive/warehouse/fifadataset' ;
 
 
 4)load data local inpath '/home/vishnu/Downloads/73041_220332_compressed_data.csv/data.csv' into table fifa19_raw.fifa19_rawtable;
+
+###section2:
+please change the input data file in the scala pobject <src/main/scala/FifaConstants.scala> to the path where the input file data.csv resides in the system to execute the code
+val inputfile=<Absolute Path of the Input file>
 
 
 ###Section3:
