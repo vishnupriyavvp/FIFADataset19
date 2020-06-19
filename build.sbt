@@ -1,4 +1,4 @@
-name := "AC"
+name := "FIFADataset19"
 
 version := "0.1"
 
@@ -11,4 +11,4 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % "2.3.0"
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.3.0"
 
 libraryDependencies += "org.apache.spark" %% "spark-hive" % "2.3.0"
-libraryDependencies += "mysql" % "mysql-connector-java" % "5.7.30"
+//libraryDependencies += "mysql" % "mysql-connector-java" % "5.7.30"

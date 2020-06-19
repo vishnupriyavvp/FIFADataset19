@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FIFADataset19.iml" filepath="$PROJECT_DIR$/.idea/FIFADataset19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FIFADataset19.iml" filepath="$PROJECT_DIR$/.idea/modules/FIFADataset19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FIFADataset19-build.iml" filepath="$PROJECT_DIR$/.idea/modules/FIFADataset19-build.iml" />
     </modules>
   </component>
 </project>
